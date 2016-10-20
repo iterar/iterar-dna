@@ -217,29 +217,92 @@ p{
 	text-align: center;
 	width: 100%;
 }
+.right-container {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	text-align: right;
+	width: 100%;
+}
 .image-container img {
 	width: 600px;
 	max-width: 80%;
+}
+.image-container .right-container img {
+	width: 60%;
+	max-width: 750px;
+}
+
+#section4 .center-container img {
+	max-width: 500px;
+	margin-left: 140px;
 }
 
 footer {
 	position: absolute;
 	bottom: 0px;
-	padding-left: 120px;
-	padding-right: 120px;
-	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 80%;
 	margin-bottom: 50px;
 	text-align: left;
+	color: #000;
+	font-size: 14px;
+}
+
+.footer-title {
+	color: #000;
+	margin-bottom: 15px;
 }
 
 .col-md-3 {
 	width: 20%;
 	float: left;
+	padding-right: 5%;
+}
+
+@media (max-width: 1024px) {
+	.footer-title-container {
+		display: none;
+	}
+	.col-md-3 {
+		width: 100%;
+		float: left;
+		margin-bottom: 40px;
+	}
+}
+
+.footer-mobile-text {
+	display: none;
+	margin-bottom: 40px;
+}
+.subtitle {
+	opacity: 0.5;
+}
+
+footer ul li {
+	opacity: 0.5;
+}
+footer ul li a {
+	text-decoration: none !important;
+}
+footer ul li a.underline {
+	text-decoration: underline !important;
+}
+footer ul li:hover {
+	opacity: 1 !important;
+}
+
+.footer-title-container {
+	margin-top: -150px;
 }
 
 .logo-footer {
+	position: absolute;
+	top: -100px;
 	zoom: 50%;
-	width: 60px;
+	margin-bottom: 40px;
 }
 
 #first-footer {
@@ -252,6 +315,11 @@ footer {
 }
 .mobile {
 	display: none;
+}
+
+.section a {
+	color: inherit;
+	text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
@@ -276,5 +344,8 @@ footer {
 	.mobile img {
 		width: 600px;
 		max-width: 80%;
+	}
+	.footer-mobile-text {
+		display: block;
 	}
 }
