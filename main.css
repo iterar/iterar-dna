@@ -262,14 +262,21 @@ footer {
 	padding-right: 5%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 761px) {
+	footer {
+		margin-bottom: 10px;
+	}
 	.footer-title-container {
 		display: none;
+	}
+	.footer-title {
+		margin-bottom: 5px;
 	}
 	.col-md-3 {
 		width: 100%;
 		float: left;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
+		font-size: 10px;
 	}
 }
 
