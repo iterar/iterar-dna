@@ -1,4 +1,4 @@
-# iterar dna'd website
+# iterar DNA'd website
 
 ## Overview
 
