@@ -119,22 +119,22 @@ footer ul li a {
 footer ul li a {
   text-decoration: none !important;
 }
-footer ul li a.underline {
-  text-decoration: underline !important;
-}
-footer ul li a:hover {
-  opacity: 1 !important;
-}
+  footer ul li a.underline {
+    text-decoration: underline !important;
+  }
+  footer ul li a:hover {
+    opacity: 1 !important;
+  }
 
 .footer-title-container {
   display: none;
   margin-top: -150px;
 }
-.footer-title-container h2 {
-  opacity: 0.5;
-}
+  .footer-title-container h2 {
+    opacity: 0.5;
+  }
 
-.col-md-3 {
+.footer-column {
   width: 100%;
   float: left;
   margin-bottom: 20px;
@@ -180,7 +180,7 @@ footer ul li a:hover {
     font-size: 36px;
     line-height: 42px;
   }
-  .col-md-3 {
+  .footer-column {
     font-size: 14px;
     width: 20%;
     float: left;
@@ -235,7 +235,7 @@ footer ul li a:hover {
     z-index: 9999;
   }
   footer {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   .footer-title {
     margin-bottom: 5px;
