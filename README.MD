@@ -6,8 +6,25 @@ This repository contains the front end code for the current [iterar.co][1] websi
 
 ## Tech stack
 
-Nothing fancy. Just pure html, css and javascript.
-Clone and open index.html.
+This is a static website is built with [Middleman](https://middlemanapp.com).
+It uses HTML, SCSS, JavaScript and jQuery.
+
+## Installation
+
+To install [Middleman](https://middlemanapp.com), please run:
+```
+$ gem install middleman
+```
+
+To run the local web server, run the following command on the project directory:
+```
+$ bundle exec middleman server
+```
+
+To build the website, run the following command on the project directory:
+```
+$ bundle exec middleman build
+```
 
 ## License
 
